@@ -1,14 +1,21 @@
-const CACHE_NAME = "adb-cache-v3";
+const CACHE_NAME = "adb-cache-v4";
 
 const ASSETS_TO_CACHE = [
   '/',
   '/index.html',
+  '/main.js',
   '/manifest.webmanifest',
-  '/sw.js'
-  // Add icons, local JS, audio, etc. here when you have them:
-  // '/icons/icon-192.png',
-  // '/icons/icon-512.png',
-  // '/assets/sprites/...',
+  '/sw.js',
+  '/scenes/WelcomeScene.js',
+  '/scenes/MainScene.js',
+
+  // Icons
+  '/icons/icon-20.png',
+  '/icons/icon-180.png',
+  '/icons/icon-512.png',
+
+  // Images
+  '/assets/images/banner.png'
 ];
 
 // Install: cache core assets

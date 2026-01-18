@@ -3,17 +3,17 @@
 </p>
 
 # ⚔️ Knights
-*A tiny turn-based battle game built for mobile and desktop.*
+*A tiny round-based battle game built for mobile and desktop.*
 
 ---
 
 ## 🎮 Overview
-**Knights** is a minimalist turn-based battle game built with Phaser.  
+**Knights** is a minimalist round-based battle game built with Phaser.  
 It focuses on a simple combat triangle:
 
-- **Attack** – spend 1 heart to deal 1 heart damage  
-- **Defend** – gain 1 heart and reduce incoming damage  
-- **Breathe** – recover breath to enable future actions  
+- **Attack** – spend x breath to deal x damage  
+- **Defend** – spend 1 breath to avoid enemy damage and make them lose their breath on successful defense. On successful defense, breath is not spent.  
+- **Breathe** – recover breath to enable future attacks or defenses  
 
 The game runs in any modern browser and supports installation as a **Progressive Web App (PWA)**.
 
@@ -85,9 +85,9 @@ Menu → **Install this site as an app**
 ## 🛡 Controls
 | Action | Effect |
 |--------|--------|
-| Attack | Spend 1 heart to deal 1 heart |
-| Defend | Gain 1 heart |
-| Breathe | Recover breath |
+| Attack | Spend x breath to deal x damage (e.g 2 breaths for 2 damage on enemy) |
+| Defend | Spend 1 breath to avoid an enemy attack. If successful defense you recover your used breath |
+| Breathe | Recover breath to power up attacks and defenses, manage it wisely |
 
 ---
 

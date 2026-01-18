@@ -1,10 +1,10 @@
 {
-  "name": "Knight",
-  "short_name": "Knight",
+  "name": "Knights",
+  "short_name": "Knights",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#0000",
-  "theme_color": "#0000",
+  "background_color": "#ff0000",
+  "theme_color": "#f5f3f8",
   "orientation": "portrait",
   "icons": [
     {
